@@ -11,12 +11,14 @@ const port = process.env.PORT || 5000;
 app.use(cors());
 app.use(express.json());
 
-const uri = `mongodb+srv://${process.env.DB_USER}:${process.env.DB_PASS}@cluster0.xsvxy9i.mongodb.net/?retryWrites=true&w=majority`;
+const uri = `mongodb+srv://${process.env.DB_USERNAME}:${process.env.DB_PASSWORD}@cluster0.xsvxy9i.mongodb.net/?retryWrites=true&w=majority`;
 const client = new MongoClient(uri, {
   useNewUrlParser: true,
   useUnifiedTopology: true,
   serverApi: ServerApiVersion.v1,
 });
+
+// console.log(process.env.DB_USERNAME, process.env.DB_PASSWORD);
 
 // const verifyJWT = (req, res, next) => {
 //   const authHeader = req.headers.authorization;
@@ -50,20 +52,20 @@ async function run() {
     // });
 
     // read all transports
-    app.get("/transports", async (req, res) => {
-      const query = {};
-      const cursor = transportsCollection.find(query);
-      const transports = await cursor.toArray();
-      res.send(transports);
-    });
+    // app.get("/transports", async (req, res) => {
+    //   const query = {};
+    //   const cursor = transportsCollection.find(query);
+    //   const transports = await cursor.toArray();
+    //   res.send(transports);
+    // });
 
     // read single transports
-    app.get("/transports/:id", async (req, res) => {
-      const id = req.params.id;
-      const query = { _id: ObjectId(id) };
-      const transport = await transportsCollection.findOne(query);
-      res.send(transport);
-    });
+    // app.get("/transports/:id", async (req, res) => {
+    //   const id = req.params.id;
+    //   const query = { _id: ObjectId(id) };
+    //   const transport = await transportsCollection.findOne(query);
+    //   res.send(transport);
+    // });
 
     // // load 3 services for home page
     // app.get("/services-limit", async (req, res) => {
@@ -179,9 +181,9 @@ async function run() {
     //   res.json(result);
     // });
 
-    app.get("*", function (req, res) {
-      res.status(404).send("route not found");
-    });
+    // app.get("*", function (req, res) {
+    //   res.status(404).send("route not found");
+    // });
 
     // // read single service
     // app.get("/services/:id", async (req, res) => {
