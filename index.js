@@ -51,7 +51,8 @@ async function run() {
         checked: req.body.checked,
         userIdFirebase: req.body.userIdFirebase,
       };
-      const result = await users.insertOne(query);
+      const result = await usersCollection.insertOne(query);
+      console.log(result);
       res.send(result);
     });
 
