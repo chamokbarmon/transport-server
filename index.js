@@ -42,6 +42,19 @@ async function run() {
     // const reviewsCollection = database.collection("reviews");
     const usersCollection = database.collection("users");
 
+    app.post("/signup", async (req, res) => {
+      console.log("result");
+      const query = {
+        name: req.body.name,
+        email: req.body.email,
+        password: req.body.password,
+        checked: req.body.checked,
+        userIdFirebase: req.body.userIdFirebase,
+      };
+      const result = await users.insertOne(query);
+      res.send(result);
+    });
+
     // app.post("/jwt", (req, res) => {
     //   const user = req.body;
     //   console.log(user);
