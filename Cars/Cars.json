@@ -1,0 +1,245 @@
+[
+    {
+       "Catagory_name": "Hondacar",
+       "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQRk8nSbfsQyWT9ejwWmTn3zuv_xEr6CQyA3Q&usqp=CAU",
+       "description":"The Honda Civic is an excellent option for drivers aspiring to join this ridesharing company.",
+       "available": "ture",
+       "cost":"40",
+        "product1":[
+          {
+            "name": "Honda City 4th Generation",
+            "picture": "https://media.autoexpress.co.uk/image/private/s--X-WVjvBW--/f_auto,t_content-image-full-desktop@1/v1562228040/autoexpress/0/83/img_8585_0.jpg",
+            "description":"This compact car is renowned for its smooth handling, powerful engine, excellent fuel economy, enhanced cargo space, and reliable overall performance. ",
+            "available": "ture",
+            "cost":"40"
+          
+          }
+        
+        ],
+         "product2":[
+          {
+            "name": "Honda City",
+            "picture": "https://static1.hotcarsimages.com/wordpress/wp-content/uploads/2022/07/Honda-NSX-(1).jpg",
+            "description":"The Honda Civic Touring features a pre-collision system that detects pedestrians crossing the road, effectively preventing accidents. ",
+            "available": "ture",
+            "cost":"40"
+          
+          }
+        
+        ],
+         "product3":[
+          {
+            "name": "Honda Amaze",
+            "picture": "https://i.ytimg.com/vi/98J2JiQxvHw/maxresdefault.jpg",
+            "description":"Honda Civic models have a 1.5-liter 4-cylinder engine with 1597-1799 cc displacement for extra power.",
+            "available": "ture",
+            "cost":"40"
+          
+          }
+        
+        ],
+         "product4":[
+          {
+            "name": "Honda WR-V",
+            "picture": "https://stimg.cardekho.com/images/carexteriorimages/930x620/Honda/City/6909/1645419537509/front-left-side-47.jpg",
+            "description":"However, profitability in the ridesharing business depends on several factors ranging from vehicle model and fuel economy to cost per ride.",
+            "available": "ture",
+            "cost":"40"
+           
+          }
+        
+        ],
+        "product5":[
+            {
+                "name": "Honda Jazz",
+                "picture": "https://etimg.etb2bimg.com/photo/93277036.cms",
+                "description":"The delivery service generates more revenue but has minimal profit margins for drivers and riders.",
+                "available": "ture",
+                "cost":"40"
+            
+            }
+          
+          ],
+         "product6":[
+          {
+            "name": "Honda City Hybrid",
+            "picture": "https://media.product.which.co.uk/prod/images/original/gm-8d1f7dfa-4f6c-4511-9fef-a292748cf26d-honda.jpg",
+            "description":"The more rides a driver gets, the more money they make, meaning Uber drivers will likely earn more in the long run.",
+            "available": "ture",
+            "cost":"40"
+           
+          }
+        
+        ]
+      
+      },
+      {
+        "Catagory_name": "bike",
+        "picture": "https://d3bzyjrsc4233l.cloudfront.net/news/Guys_2zHXVKp.png",
+        "description":" Let's begin with the most popular types of bikes that you should first consider when buying a new bike. The chances are that",
+        "available": "ture",
+        "cost":"20",
+         "product1":[
+           {
+             "name": "Hero Thriller 160R Refresh",
+             "picture": "https://i0.wp.com/themazatlanpost.com/wp-content/uploads/sites/18/2022/02/Uber-Moto.png?fit=800%2C445&ssl=1",
+             "description":"A good standard size for a beginner is 500cc to 700cc, depending on your physical size. But that engine size is plenty big enough to get you and a passenger across town or even across the country.",
+             "available": "ture",
+             "cost":"20"
+             
+           }
+         
+         ],
+          "product2":[
+           {
+             "name": "Hero Thriller 160R",
+             "picture": "https://ichef.bbci.co.uk/news/976/cpsprodpb/1818F/production/_125830789_karina.jpg",
+             "description":"currently the fastest bike in the world with a top speed of 273 mph",
+             "available": "ture",
+             "cost":"20"
+           
+           }
+         
+         ],
+          "product3":[
+           {
+             "name": "Hero Hunk Glossy",
+             "picture": "https://www.lexhaminsurance.co.uk/media/3bjk54nl/ns_honda-cb125f.jpg",
+             "description":"Hero Motor Corporation's popular sports bike is Hero Extreme. Hero-Honda CBZ came on the market when Hero was merged with Honda. ",
+             "available": "ture",
+             "cost":"20"
+           
+           }
+         
+         ],
+          "product4":[
+           {
+             "name": "Hero Glamour",
+             "picture": "https://0.cdn.autotraderspecialty.com/Article-556-fb4d931649a5eac2a80bf476c38e6f65.jpg",
+             "description":"it's recognized as the largest two-wheeler manufacturer in the world",
+             "available": "ture",
+             "cost":"20"
+             
+             
+           
+           }
+         
+         ],
+         "product5":[
+             {
+                 "name": "Hero Passion X pro",
+                 "picture": "https://cdn.motor1.com/images/mgl/kvXnx/s3/royal-enfield-classic---2.jpg",
+                 "description":"The two-wheeler brand HERO is formerly known as HERO-HONDA currently operating its business globally and considering the yearly production volume",
+                 "available": "ture",
+                 "cost":"20"
+                 
+                 
+               
+             
+             }
+           
+           ],
+          "product6":[
+           {
+             "name": "Hero Splendor Plus",
+             "picture": "https://live-production.wcms.abc-cdn.net.au/5bbcd1beb812e18da58429ccb537e420?impolicy=wcms_crop_resize&cropH=1134&cropW=2016&xPos=0&yPos=0&width=862&height=485",
+             "description":"manufactures varieties of motorcycles & scooters and distributes the same in India as well as in the global markets.",
+             "available": "ture",
+             "cost":"20"
+             
+           
+           }
+         
+         ]
+       
+       },
+       {
+        "Catagory_name": "bicycle",
+        "picture": "https://cdn.shopify.com/s/files/1/0405/1117/6862/products/Islabikes-Beinn20-Small-Teal-ChildrensBike.jpg?v=1644601461",
+        "description":" A bicycle, also called a pedal cycle, bike, push-bike or cycle, is a human-powered or motor-powered assisted,",
+        "available": "ture",
+        "cost":"15",
+         "product1":[
+           {
+             "name": "BSA:",
+             "picture": "https://eastmanshop.com/media/catalog/product/cache/2aef1574d2f98df78236810d805c9072/d/s/dsc_1185_1_11zon.jpg",
+             "description":"They also provide a popular form of recreation, and have been adapted for use as children's toys,",
+             "available": "ture",
+             "cost":"15"
+             
+             
+           
+           }
+         
+         ],
+          "product2":[
+           {
+             "name": "Firefox",
+             "picture": "https://m.media-amazon.com/images/I/715wCxNPK4L._SX425_.jpg",
+             "description":"The bicycle's invention has had an enormous effect on society, both in terms of culture and of advancing modern industrial methods.",
+             "available": "ture",
+             "cost":"15"
+             
+             
+           
+           }
+         
+         ],
+          "product3":[
+           {
+             "name": "Schnell",
+             "picture": "https://m.media-amazon.com/images/I/819QJTjsniS._SX679_.jpg",
+             "description":"The great majority of modern bicycles have a frame with upright seating that looks much like the first chain-driven bike",
+             "available": "ture",
+             "cost":"10"
+             
+           
+           }
+         
+         ],
+          "product4":[
+           {
+             "name": "Hero",
+             "picture": "https://m.media-amazon.com/images/I/715wCxNPK4L._SX679_.jpg",
+             "description":" bicycles have followed a similar pattern as in aircraft, the goal being high strength and low weight",
+             "available": "ture",
+             "cost":"10"
+             
+             
+           
+           }
+         
+         ],
+         "product5":[
+             {
+                 "name": "Roulik",
+                 "picture": "https://s3.ap-south-1.amazonaws.com/choosemybicycle/images/bicycles/hero-sprint-thorn-24t.jpg",
+                 "description":"Since cyclists' legs are most efficient over a narrow range of pedaling speeds,",
+                 "available": "ture",
+                 "cost":"10"
+                 
+               
+             
+             }
+           
+           ],
+          "product6":[
+           {
+             "name": "Mach city",
+             "picture": "https://www.cycle.eco/_vercel/image?url=/hero_home.webp&w=768&q=100",
+             "description":"The most common options are either a rear hub or multiple chain rings combined with multiple sprockets ",
+             "available": "ture",
+             "cost":"10"
+             
+           
+           }
+         
+         ]
+       
+       }
+       
+       
+]
+    
+    
+  
