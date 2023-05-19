@@ -39,11 +39,16 @@ const client = new MongoClient(uri, {
 async function run() {
   try {
     const database = client.db("easy-transport");
+    const database1 = client.db("easy-transport-two");
+
     const transportsCollection = database.collection("transports");
     // const reviewsCollection = database.collection("reviews");
     const usersCollection = database.collection("users");
     const servicesCollection = database.collection("servicesProduct");  
+    const bookingCollection = database.collection("riderBooking");  
+  
 
+    
     app.post("/signup", async (req, res) => {
       console.log("result");
       const query = {
@@ -70,6 +75,30 @@ async function run() {
       const carService = await servicesCollection.findOne(query)
       res.send(carService);
     })
+
+    app.post('/services', async(req,res)=>{
+      const ridebooking = req.body;
+      console.log(ridebooking);
+      const result = await bookingCollection.insertOne(ridebooking)
+      res.send(result)
+    })
+
+    app.get("/ridebooking/:email", async (req, res) => {
+      const query = { email: req.params.email };
+      const cursor = bookingCollection.find(query);
+      const result = await cursor.toArray();
+      res.send(result);
+    });
+
+    // app.get('/ridebooking',async (req,res)=>{
+    //   const email = req.query.email;
+    //   console.log(email)
+    //   const query = {email: email };
+    //   const bookings = await bookingCollection.find(query).toArray();
+    //   res.send(bookings)
+    // })
+
+
 
     // app.post("/jwt", (req, res) => {
     //   const user = req.body;
